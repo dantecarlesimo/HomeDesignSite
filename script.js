@@ -22,7 +22,7 @@ $(document).ready(function() {
     $('.container').hover(
       function() {
       $(this).find('img').stop().fadeTo('slow', 0.3);
-      $('.text').show('fast');
+      $(this).find('.text').show('fast');
       },
       function () {
       $(this).find('img').stop().fadeTo('slow', 1);
