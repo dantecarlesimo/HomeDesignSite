@@ -1,0 +1,41 @@
+body {
+  background-color: lightblue;
+}
+
+/*
+div.homeBox {
+  width: 300px;
+  height: 60px;
+  background-color: grey;
+}
+
+div.collapse {
+  background-color: red;
+  width: 30px;
+  height: 200px;
+}*/
+
+.container{
+  position: relative;
+  /*background-image: url('Lighthouse.jpg');*/
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px 10px 10px;
+  /*background-color:red;*/
+
+}
+
+.text{
+  display:none;
+  position: absolute;
+  bottom: 0;
+  padding: 15px 0px 10px 20px;
+
+}
+
+
+
+img {
+  width: 300px;
+  height: 200px;
+}
