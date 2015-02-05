@@ -19,6 +19,9 @@ $(document).ready(function() {
 
   //  $('.text').hide().removeClass('text').addclass('text-js');
 
+
+
+// CODE TO FADE PICTURE & SHOW TEXT AND BUTTONS FOR FLOORPLANS & ELEVATIONS
     $('.container').hover(
       function() {
       $(this).find('img').stop().fadeTo('slow', 0.3);
