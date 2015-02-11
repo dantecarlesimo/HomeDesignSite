@@ -57,6 +57,7 @@ header {
   /*background-image: url('Lighthouse.jpg');*/
   height: 280px;
   width: 400px;
+  display: inline-block;
   /*margin: 12px 4px 12px 4px;*/
   /*background-color:red;*/
 
