@@ -13,6 +13,26 @@ $(document).ready(function() {
     });
 
 
+
+
+    $( "#about").on( "click", function() {
+      $('.collage').html('<h4>this is the about section. add stuff here later.</h4>');
+
+
+    });
+    $( "#collections").on( "click", function() {
+      $('.collage').html('<h4>Display info about the different home collections</h4>');
+
+
+    });
+    $( "#contact").on( "click", function() {
+      $('.collage').html('<h4>Contact Info here.</h4>');
+
+
+    });
+
+
+
 });
 
 
