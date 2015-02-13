@@ -12,26 +12,22 @@ $(document).ready(function() {
       $('.text').hide('fast');
     });
 
-
-
-
     $( "#about").on( "click", function() {
-      $('.collage').html('<h4>this is the about section. add stuff here later.</h4>');
-
-
+         $('.collage, .collections, .contact').hide();
+         $('.about').show();
     });
     $( "#collections").on( "click", function() {
-      $('.collage').html('<h4>Display info about the different home collections</h4>');
-
-
+        $('.collage, .about, .contact').hide();
+        $('.collections').show();
     });
     $( "#contact").on( "click", function() {
-      $('.collage').html('<h4>Contact Info here.</h4>');
-
-
+        $('.collage, .about, .collections').hide();
+        $('.contact').show();
     });
-
-
+    $( "#home").on( "click", function() {
+        $('.collections, .about, .contact').hide();
+        $('.collage').show();
+    });
 
 });
 

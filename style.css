@@ -12,6 +12,10 @@ header h1, h3{
 
 }
 
+header h1 {
+  cursor:pointer
+}
+
 #top-nav {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -19,6 +23,7 @@ header h1, h3{
   right: 60px;
   top: 15px;
 }
+
 ul#top-nav li {
   font-size: 20px;
   display: inline;
@@ -27,7 +32,6 @@ ul#top-nav li {
 
 body {
   background-color: white;
-
 }
 
 .collage{
@@ -64,6 +68,7 @@ footer {
   /*margin: 12px 4px 12px 4px;*/
   /*background-color:red;*/
   /*margin-bottom: 0px;*/
+  cursor:pointer
 
 }
 
@@ -87,6 +92,10 @@ img {
 
 .buttons-plans {
   float: left;
+}
+
+.about, .collections, .contact {
+  display:none;
 }
 
 
